@@ -1,0 +1,86 @@
+
+/* Ensure the body takes up full height and remove default margins */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: block;
+}
+
+/* Centering the login container */
+.login-container {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  
+  /* Absolute positioning to center the element */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Heading style */
+.login-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input fields */
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+/* Focus effect for inputs */
+.login-container input:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* Button styling */
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.login-container button:hover {
+  background-color: #45a049;
+}
+
+/* Paragraph with the register link */
+.login-container p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 20px;
+}
+
+/* Style for the 'Register' link */
+.login-container a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hover effect for the register link */
+.login-container a:hover {
+  text-decoration: underline;
+}
